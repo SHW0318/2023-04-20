@@ -40,7 +40,7 @@ public class BDao {
 			pstmt.executeUpdate();
 			
 		}catch(Exception e){
-
+			e.printStackTrace();
 		}finally {
 			try {
 				if(pstmt != null) {

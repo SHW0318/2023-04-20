@@ -19,7 +19,7 @@ public class BoardController {
 		
 		model.addAttribute("request", request);
 		
-		return "";
+		return "views";
 	}
 
 }
